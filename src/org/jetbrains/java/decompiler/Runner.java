@@ -8,7 +8,7 @@ import org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler;
 public class Runner {
 
     public static void main(String[] args) {
-        ConsoleDecompiler.main(new String[]{"-mpm=10000", "-lit=1", "testData/classes/pkg", "test"});
+        ConsoleDecompiler.main(new String[]{"testData/classes/pkg", "test"});
     }
 
 }
